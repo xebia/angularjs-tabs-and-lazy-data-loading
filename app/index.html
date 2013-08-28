@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>AngularJS Bootstrap tab directive and lazy loading demo</title>
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <tabset>
+          <tab title="Tab 1" template-url="views/tab1.html"></tab>
+          <tab title="Tab 2" template-url="views/tab2.html"></tab>
+          <tab title="Tab 3" template-url="views/tab3.html"></tab>
+        </tabset>
+      </div>
+    </div>
+
+    <script src="components/angular/angular.js"></script>
+    <script src="scripts/directives/tabset.js"></script>
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/FirstTabCtrl.js"></script>
+    <script src="scripts/controllers/SecondTabCtrl.js"></script>
+    <script src="scripts/controllers/ThirdTabCtrl.js"></script>
+
+  <body>
+</html>

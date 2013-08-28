@@ -1,0 +1,10 @@
+{
+  "name": "angularjs-bootstrap-tabs-demo-code",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "~1.2.0rc1",
+    "bootstrap": "3.0.0-rc1"
+  },
+  "devDependencies": {
+  }
+}
